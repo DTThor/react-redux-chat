@@ -11,7 +11,7 @@ const Sidebar = ({ users }) => (
   </aside>
 )
 Sidebar.PropTypes = {
-  users.PropTypes.arrayOf(
+  users: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.number.isRequired,
       name: PropTypes.string.isRequired
